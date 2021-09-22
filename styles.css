@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: madelyn;
+    src: url("./fonts/madelyn.woff") format("woff");
+}
+
+/********************************************************************/
+
+.slogan{
+    font-family: madelyn;
+    color: rgb(255, 238, 0);
+    font-size: 130%;
+}
+
+.special{
+    font-family: 'Allison', cursive;
+    color: rgb(255, 238, 0);
+    font-size: 110%;
+}
+
+
+.slogan2{
+    font-family: madelyn;
+    font-size: 130%;
+}
+
+.special2{
+    font-family: 'Allison', cursive;
+    font-size: 110%;
+}
+
+
+/********************************************************************/
+
+.menu{
+    padding: 0px;
+    font-size: 200%;
+}
+
+.navbar-brand{
+    font-size: 120%;
+}
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+
+/********************************************************************/
+
+body{
+    background-color: black;
+}
+
+.main-body img{
+    width: 100%;
+}
+
+/********************************************************************/
+.main-body{
+    position: relative;
+}
+
+.text-container{
+    position: absolute;
+    background-color: black;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 120%;
+    top: 40px;
+    width: 450px;
+    left: 70px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 5px 3px 3px rgb(41, 40, 40);
+    letter-spacing: .5px;  
+}
+
+.text-container h1{
+    font-size: 160%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+/********************************************************************/ 
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+footer a, footer p{
+    font-size: 90%;
+}
+
+footer .col1, .col2{
+    flex: 1;
+    padding: 3px;
+    padding-bottom: 0px;
+}
+
+.compra{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+footer p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+/******************************************************************* <=== Page 2 */
+
+.beneficios2{
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 130%;
+    font-weight: bold;
+    top: 0px;
+    width: 1200px;
+    left: 100px;
+    padding: 20px;
+    text-align: justify;
+    letter-spacing: .5px;
+    color:rgb(241, 237, 232);
+}
+.saludable{
+    text-align: center;
+}
+
+
+/********************************************************************/
+
+@media only screen and (max-width: 600px) {
+
+    .navbar-brand{
+        font-size: 100%;        
+    }
+
+    .text-container{
+        font-size: 65%;
+        top: 20px;
+        width: 340px;
+        height:auto;
+        left: 10px;
+        padding: 10px;
+    }
+
+    .main-body{
+        height: 900px;
+    }
+
+/********************************************************************/
+
+    .beneficios2{ 
+        font-size: 65%;
+        top: 100px;
+        width: 340px;
+        height:auto;
+        left: 0px;
+        padding: 10px; 
+    }
+
+/********************************************************************/
+   footer{
+    display: block;
+    font-size: 80%;
+    }
+}
